@@ -6,7 +6,6 @@ import {
   faHtml5,
   faJava,
   faJsSquare,
-  faNodeJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
