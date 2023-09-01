@@ -70,7 +70,7 @@
     border: 1px solid #ffd700;
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
+    // animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
@@ -79,7 +79,6 @@
     }
   }
 }
-
 
 
 @media screen and (max-width: 1200px) {

@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Smriti Mool,
           <br />
           Serbia,
           <br />
