@@ -4,7 +4,9 @@ import {
   faCss3,
   faGitAlt,
   faHtml5,
+  faJava,
   faJsSquare,
+  faNodeJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
@@ -32,19 +34,26 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          <p>Greetings, <br />
+            I'm Smriti Mool, a passionate full-stack developer with over 4.5 years of hands-on experience.
+            My journey began with a Bachelor's degree in Computer Engineering, and I've recently added a Web
+            Development Graduate Certificate from Conestoga College, located in the vibrant city of Waterloo, Canada.
+
+            <br /><br />
+            I'm known for my versatile approach to problem-solving, driven by a deep curiosity to explore various
+            programming languages and craft innovative solutions. My technical proficiency spans from back-end
+            technologies like JAVA and NodeJS to front-end mastery in Angular and ReactJS. This skill set has honed
+            my critical thinking abilities and enabled me to navigate complex challenges.
+
+            Beyond my technical expertise, I pride myself on effective communication and thrive in collaborative
+            environments. My experience as a Certified Scrum Master and developer uniquely positions me to excel
+            under pressure, facilitate team success, and drive projects to completion.
+
+            I'm excited about the opportunity to contribute my skills and dedication to your dynamic
+            team or project. Feel free to explore my portfolio to see how my passion for coding and problem-solving
+            translates into real-world solutions.
+            <br /><br />
+            Thank you for visiting, and I look forward to connecting with you.
           </p>
         </div>
 
@@ -67,6 +76,9 @@ const About = () => {
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faJava} color="#EC4D28" />
             </div>
           </div>
         </div>
