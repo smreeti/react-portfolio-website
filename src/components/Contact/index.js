@@ -5,10 +5,14 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import { SERVICE_ID, TEMPLATE_ID, USER_ID } from '../../keys/keys'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
+  const form = useRef();
+  const waterlooLocation = [43.4643, -80.5204];
+  const smritiLocation = [43.46518, -80.52751];
+  const address = "258A Sunview Street, Waterloo, ON, N2L 0H6";
 
   useEffect(() => {
     return setTimeout(() => {
@@ -20,7 +24,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
       .then(
         () => {
           alert('Message successfully sent!')
@@ -44,7 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
+            I am interested in Full stack developer opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
           </p>
@@ -87,22 +91,22 @@ const Contact = () => {
         <div className="info-map">
           Smriti Mool,
           <br />
-          Serbia,
+          {address}
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
-          <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>mool.smreeti@gmail.com</span>
         </div>
+
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={waterlooLocation} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={smritiLocation}>
+              <Popup> Smriti's location:<br />
+                {address}</Popup>
             </Marker>
           </MapContainer>
         </div>
       </div>
+
       <Loader type="pacman" />
     </>
   )
