@@ -1,0 +1,50 @@
+.resume-container {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.resume-scroll-container {
+    height: 99vh;
+    overflow-y: auto;
+    color: black;
+}
+
+header p,
+header {
+    text-align: center !important;
+    margin: 0;
+}
+
+p,
+li {
+    font-size: 14px;
+    text-align: justify;
+}
+
+ul,
+p {
+    margin-top: 0;
+}
+
+article p,
+article h3 {
+    margin: 0 !important;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+article h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
