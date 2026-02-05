@@ -14,8 +14,8 @@ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef();
   const waterlooLocation = [43.4643, -80.5204];
-  const smritiLocation = [43.46518, -80.52751];
-  const address = "258A Sunview Street, Waterloo, ON, N2L 0H6";
+  const smritiLocation = [43.4477, -80.4848];
+  const address = "60 Frederick Street, Kitchener, ON, N2H 0C7";
 
   useEffect(() => {
     return setTimeout(() => {
@@ -53,7 +53,7 @@ const Contact = () => {
           <p>
             I am interested in Full stack developer opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            questions, don't hesitate to contact me using below form.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

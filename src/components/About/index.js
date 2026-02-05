@@ -34,9 +34,7 @@ const About = () => {
             />
           </h1>
           <p>Greetings, <br />
-            I'm Smriti Mool, a passionate full-stack developer with over 4.5 years of hands-on experience.
-            My journey began with a Bachelor's degree in Computer Engineering, and I've recently added a Web
-            Development Graduate Certificate from Conestoga College, located in the vibrant city of Waterloo, Canada.
+            I’m Smriti Mool, a passionate full-stack developer with 5+ years of experience building web solutions. I earned a Bachelor’s degree in Computer Engineering and a Web Development Graduate Certificate from Conestoga College in Waterloo, Canada.
 
             <br /><br />
             I'm known for my versatile approach to problem-solving, driven by a deep curiosity to explore various

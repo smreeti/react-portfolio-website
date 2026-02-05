@@ -7,7 +7,7 @@ const Resume = () => {
                 <div className="resume-container">
                     <header>
                         <h1>SMRITI MOOL</h1>
-                        <p>647-915-1025 | mool.smreeti@gmail.com</p>
+                        <p>382-885-0755 | mool.smreeti@gmail.com</p>
                         <p>
                             LinkedIn: <a href="https://www.linkedin.com/in/smriti-mool/" target="_blank"
                                 rel="noopener noreferrer">Smriti Mool</a> |
@@ -19,17 +19,17 @@ const Resume = () => {
                     <section className="brief-summary">
                         <h2>Brief Summary</h2>
                         <p>
-                            Experienced software developer with a robust four-year track record in Java, Spring, JavaScript, MERN, and SQL, delivering innovation and efficiency in web application development. Holding the Certified Scrum Master credential, I've consistently improved user experiences and streamlined development processes. Now actively seeking an opportunity in a dynamic and collaborative environment to expand my expertise further and drive impactful solutions.
+                            Experienced software developer with a robust 4 yrs+ track record in Java, Spring, JavaScript, MERN, and SQL, delivering innovation and efficiency in web application development. Holding the Certified Scrum Master credential, I've consistently improved user experiences and streamlined development processes. Now actively seeking an opportunity in a dynamic and collaborative environment to expand my expertise further and drive impactful solutions.
                         </p>
                     </section>
 
                     <section className="technical-skills">
                         <h2>Technical Skills</h2>
                         <ul>
-                            <li>Languages: Java, JavaScript, jQuery, HTML, CSS, Bootstrap, TypeScript</li>
+                            <li>Languages: Java, JavaScript, HTML, CSS, Bootstrap, TypeScript, XSLT</li>
                             <li>Frameworks: Spring Framework, Spring Boot, Maven, Angular, React, Node</li>
-                            <li>Database Design: Relational Database Management System, MySQL, MongoDB</li>
-                            <li>Tools: Git, GitHub, GitLab, JIRA, Build tools (npm, Webpack)</li>
+                            <li>Database Design: MySQL, MongoDB, Oracle</li>
+                            <li>Tools: Git, GitHub, GitLab, Jenkins, JIRA, SonarQube, AWS, JFrog</li>
                             <li>Methodologies: Scrum, Agile, Microservice</li>
                             <li>Others: TDD, RESTful APIs, GraphQL, Object-Oriented Programming</li>
                         </ul>
@@ -37,10 +37,28 @@ const Resume = () => {
 
                     <section className="work-experience">
                         <h2>Work Experience</h2>
+                         <article>
+                            <h3>Frontend Developer <span>Jan 2024 - Feb 2026</span></h3>
+                            <p>Mdf Commerce Inc., Canada</p>
+                            <p>Technology: Java, React, JavaScript, XSLT, XML, Oracle, AWS</p>
+                            <ul>
+                                <li>Develop new web-based solutions for customers by participating in all aspects of the software development lifecycle, including analysis, coding, building, testing, deployment, and documentation.</li>
+                                <li>Maintain and enhance existing software applications by troubleshooting issues, fixing defects, implementing new features, and adapting applications to evolving business and customer requirements.</li>
+                                <li>Design and develop high-performance, scalable applications using Java, JavaScript, React, XML, XSLT, and Oracle DB, writing and optimizing queries, and implementing JUnit tests to ensure reliable and maintainable code.</li>
+                                <li>Perform daily monitoring and quality checks using tools such as Jenkins, SonarQube, AWS Inspector, and JFrog to ensure application health, security, and compliance with quality standards.</li>
+                                <li>Deploy, support, and monitor applications hosted on Amazon Web Services (AWS), to ensure efficiency, scalability, and optimal performance of frontend solutions.</li>
+                                <li>Collaborate with backend developers, QA teams, product owners, and other stakeholders in an Agile Scrum environment to design, develop, and deliver software features.</li>
+                                <li>Use version control and project management tools such as Git, GitLab, and Jira to manage source code, track development tasks, and support effective team coordination.</li>
+                                <li>Write and maintain comprehensive documentation for new features, bug fixes, and testing procedures to support future development and maintenance.</li>
+                                <li>Participate in code reviews to ensure code quality, maintainability, and adherence to development standards and best practices.</li>
+
+                          </ul>
+                        </article>
+
                         <article>
                             <h3>Senior Software Developer <span>Feb 2021 - Jan 2022</span></h3>
                             <p>F1Soft International Pvt. Ltd., Nepal</p>
-                            <p>Technology: Java, Spring, React, Spring Boot, MySQL</p>
+                            <p>Technology: Java, Spring, React, Spring Boot, MySQL, Microservices, Angular</p>
                             <ul>
                                 <li>  Developed the 'Foneloan' app, enabling 100K+ users and 115K+ loans disbursed (2.45B+ amount), revolutionizing acquisition with a user-friendly interface for heightened accessibility and economic growth.
                                 </li>
@@ -48,32 +66,16 @@ const Resume = () => {
                                     Executed a user-centric approach by enhancing the high-volume API applications, resulting in a 30% increase in user engagement and a 25% decrease in bounce rates.</li>
                                 <li>Implemented robust security measures and conducted rigorous testing protocols, resulting in an 80% reduction in security incidents and ensuring the safety of user data and financial transactions.</li>
                                 <li>Resolved technical issues per client specifications and maintained documentation of user requirements by actively collaborating with stakeholders and cross-functional project teams, resulting in successfully resolving challenges and improved product quality.</li>
-                            </ul>
-                        </article>
-
-                        <article>
-                            <h3>Software Developer<span>Apr 2019 - Feb 2021</span></h3>
-                            <p>Cogent Health Pvt Ltd., Nepal</p>
-                            <p>Technology: Java, ReactJS, Microservices, TDD, Jenkins, MongoDB, HTML, CSS</p>
-                            <ul>
-                                <li>
+                                 <li>
                                     Collaborated with eSewa on 'eappointments,' optimizing hospital scheduling, reducing appointment wait times by 50%, and elevating patient satisfaction
                                 </li>
-                                <li>
+                                 <li>
                                     Led Scrum processes as Scrum Master and performed code reviews, driving a 20% increase in product delivery, fostering cross-functional collaboration, and contributing to enhanced customer satisfaction and revenue growth.
                                 </li>
                                 <li>
                                     Played an integral role in 'cogentEMR' app development, achieving a 40% reduction in medical record processing time and significantly improving data accuracy
                                 </li>
-                            </ul>
-                        </article>
-
-                        <article>
-                            <h3>Software Developer<span>Nov 2017 - Apr 2019 </span></h3>
-                            <p>F1Soft International Pvt. Ltd., Nepal</p>
-                            <p>Technology: Java, Spring, Spring Boot, MySQL, Angular</p>
-                            <ul>
-                                <li>
+                                 <li>
                                     Spearheaded the development and implementation of innovative features for the Nepal Krishi Company web application, resulting in a remarkable 25% increase in user engagement and a 15% boost in overall functionality.
                                 </li>
                                 <li>
@@ -85,7 +87,7 @@ const Resume = () => {
                         <article>
                             <h3>Intern <span>Aug 2017 - Nov 2017</span></h3>
                             <p>Nepal Telecom, Nepal</p>
-                            <p>Technology: Java, Spring, Spring Boot, MySQL, Angular</p>
+                            <p>Technology: Networking fundamentals, TCP/IP, LAN/WAN, basic network troubleshooting, telecom systems</p>
                             <ul>
                                 <li>
                                     Leveraged outstanding interpersonal and communication skills, engaging with customers across diverse channels, resulting in a 95% inquiry resolution rate and strengthened customer loyalty.
