@@ -19,19 +19,22 @@ const Resume = () => {
                     <section className="brief-summary">
                         <h2>Brief Summary</h2>
                         <p>
-                            Experienced software developer with a robust 4 yrs+ track record in Java, Spring, JavaScript, MERN, and SQL, delivering innovation and efficiency in web application development. Holding the Certified Scrum Master credential, I've consistently improved user experiences and streamlined development processes. Now actively seeking an opportunity in a dynamic and collaborative environment to expand my expertise further and drive impactful solutions.
+                            Detail-oriented full-stack developer with 5+ years of experience designing, developing, and supporting scalable,
+large-scale customer-facing products across procurement, fintech, and healthcare domains. Strong technical and
+problem-solving skills with expertise in Java, Spring Boot, MySQL, ReactJS, and microservices architecture. Certified Scrum Master with
+strong stakeholder collaboration, leadership, and communication skills in Agile environments.
                         </p>
                     </section>
 
                     <section className="technical-skills">
                         <h2>Technical Skills</h2>
                         <ul>
-                            <li>Languages: Java, JavaScript, HTML, CSS, Bootstrap, TypeScript, XSLT</li>
-                            <li>Frameworks: Spring Framework, Spring Boot, Maven, Angular, React, Node</li>
-                            <li>Database Design: MySQL, MongoDB, Oracle</li>
+                            <li>Languages: Java, JavaScript, XSLT, HTML, CSS, Bootstrap </li>
+                            <li>Frameworks: Spring Framework, Spring Boot, Maven, ReactJS, Node.js</li>
+                            <li>Database: MySQL, Oracle (SQL), MongoDB (NoSQL)</li>
                             <li>Tools: Git, GitHub, GitLab, Jenkins, JIRA, SonarQube, AWS, JFrog</li>
                             <li>Methodologies: Scrum, Agile, Microservice</li>
-                            <li>Others: TDD, RESTful APIs, GraphQL, Object-Oriented Programming</li>
+                            <li>Others: TDD, RESTful APIs, Object-Oriented Programming, SDLC</li>
                         </ul>
                     </section>
 
@@ -40,48 +43,47 @@ const Resume = () => {
                          <article>
                             <h3>Frontend Developer <span>Jan 2024 - Feb 2026</span></h3>
                             <p>Mdf Commerce Inc., Canada</p>
-                            <p>Technology: Java, React, JavaScript, XSLT, XML, Oracle, AWS</p>
+                            <p>Technology: Java 21, ReactJS, JavaScript, XSLT, XML, Oracle, AWS</p>
                             <ul>
-                                <li>Develop new web-based solutions for customers by participating in all aspects of the software development lifecycle, including analysis, coding, building, testing, deployment, and documentation.</li>
-                                <li>Maintain and enhance existing software applications by troubleshooting issues, fixing defects, implementing new features, and adapting applications to evolving business and customer requirements.</li>
-                                <li>Design and develop high-performance, scalable applications using Java, JavaScript, React, XML, XSLT, and Oracle DB, writing and optimizing queries, and implementing JUnit tests to ensure reliable and maintainable code.</li>
-                                <li>Perform daily monitoring and quality checks using tools such as Jenkins, SonarQube, AWS Inspector, and JFrog to ensure application health, security, and compliance with quality standards.</li>
-                                <li>Deploy, support, and monitor applications hosted on Amazon Web Services (AWS), to ensure efficiency, scalability, and optimal performance of frontend solutions.</li>
+                                 <li>Built and maintained full-stack applications using Java, JavaScript, XML, XSLT, and Oracle DB, writing optimized queries and JUnit tests to ensure code reliability and high performance.</li>
+                                <li>Designed and implemented the Document Consolidation workflow, enabling multiple contracts to be merged for signature in a single workflow, reducing manual processing by ~30%.</li>
+                                <li>Developed an automated package synchronization system ensuring seamless service-oriented integration and preserving client customizations across 20+ enterprise clients.</li>
+                                <li>Performed daily monitoring and quality checks using tools such as Jenkins, SonarQube, AWS Inspector, and JFrog to ensure application health, security, and compliance with quality standards.</li>
+                                <li>Participated in peer code reviews, pull request validation, and architectural discussions, applying design patterns and best practices to enhance application performance and maintain coding standards.</li>
+                                <li>Utilized Version Control Systems, tracked development tasks in JIRA, and maintained technical documentation in Confluence to ensure code traceability, collaboration, and long-term maintainability.</li>
                                 <li>Collaborate with backend developers, QA teams, product owners, and other stakeholders in an Agile Scrum environment to design, develop, and deliver software features.</li>
-                                <li>Use version control and project management tools such as Git, GitLab, and Jira to manage source code, track development tasks, and support effective team coordination.</li>
-                                <li>Write and maintain comprehensive documentation for new features, bug fixes, and testing procedures to support future development and maintenance.</li>
-                                <li>Participate in code reviews to ensure code quality, maintainability, and adherence to development standards and best practices.</li>
-
                           </ul>
                         </article>
 
                         <article>
-                            <h3>Senior Software Developer <span>Feb 2021 - Jan 2022</span></h3>
-                            <p>F1Soft International Pvt. Ltd., Nepal</p>
-                            <p>Technology: Java, Spring, React, Spring Boot, MySQL, Microservices, Angular</p>
+                            <h3>F1Soft International Pvt. Ltd., Nepal <span>Jan 2024 - Feb 2026</span></h3>
+                            <h3>Senior Software Developer (Feb 2021 - Jan 2022) </h3>
+                            <p>Technology: Java 8, Spring Boot, ReactJS, Spring Boot, MySQL</p>
                             <ul>
-                                <li>  Developed the 'Foneloan' app, enabling 100K+ users and 115K+ loans disbursed (2.45B+ amount), revolutionizing acquisition with a user-friendly interface for heightened accessibility and economic growth.
-                                </li>
-                                <li>
-                                    Executed a user-centric approach by enhancing the high-volume API applications, resulting in a 30% increase in user engagement and a 25% decrease in bounce rates.</li>
-                                <li>Implemented robust security measures and conducted rigorous testing protocols, resulting in an 80% reduction in security incidents and ensuring the safety of user data and financial transactions.</li>
-                                <li>Resolved technical issues per client specifications and maintained documentation of user requirements by actively collaborating with stakeholders and cross-functional project teams, resulting in successfully resolving challenges and improved product quality.</li>
-                                 <li>
-                                    Collaborated with eSewa on 'eappointments,' optimizing hospital scheduling, reducing appointment wait times by 50%, and elevating patient satisfaction
-                                </li>
-                                 <li>
-                                    Led Scrum processes as Scrum Master and performed code reviews, driving a 20% increase in product delivery, fostering cross-functional collaboration, and contributing to enhanced customer satisfaction and revenue growth.
-                                </li>
-                                <li>
-                                    Played an integral role in 'cogentEMR' app development, achieving a 40% reduction in medical record processing time and significantly improving data accuracy
-                                </li>
-                                 <li>
-                                    Spearheaded the development and implementation of innovative features for the Nepal Krishi Company web application, resulting in a remarkable 25% increase in user engagement and a 15% boost in overall functionality.
-                                </li>
-                                <li>
-                                    Cooperated closely with the marketing team to strategize and execute user acquisition campaigns, leading to a 40% increase in the user base over six months.
-                                </li>
+                                <li>Led backend API development team in building ‘Foneloan’ app serving 100K+ users with 115K+ loans disbursed (2.45B+ amount), driving significant user growth and business impact.</li>
+                                <li>Integrated third-party payment system (eSewa) using secure RESTful APIs, implementing OAuth2 and JWT token-based authentication for secure EMI loan processing and data exchange.</li>
+                                <li>Collaborated with product owners and multiple cross-functional teams (FonePay, Bankconnect, Banksmart) to troubleshoot complex integration issues and articulate effective technical solutions aligned with business objectives.</li>
+                                <li>Served as Scrum Master and mentor, facilitating Agile ceremonies, coaching junior developers, and improving team velocity by 20% while strengthening collaboration and knowledge sharing.</li>
                             </ul>
+                        </article>
+
+                        <article>
+                            <h3>Software Developer, Cogent Health, subsidiary of F1Soft International (Apr 2019 - Feb 2021) </h3>
+                            <p>Technology: Java, Spring Boot, Microservices, Test-driven development, Jenkins, MongoDB, ReactJS</p>
+                           <ul>
+                                <li>Contributed to microservices-based architecture for the 'cogentEMR' platform, reducing medical record processing time by 40% and improving data accuracy.</li>
+                                <li>Improved backend performance through SQL query optimization and implementing service-layer caching mechanisms, reducing average API response time from ~5 seconds to ~3 seconds.</li>
+                                <li>Collaborated with eSewa on 'eappointments' to build secure REST APIs and optimize hospital scheduling, reducing appointment wait times by 50% and elevating patient satisfaction.</li>
+                            </ul>
+                        </article>
+
+                           <article>
+                            <h3>Software Developer (Nov 2017 - Apr 2019) </h3>
+                            <p>Technology: Java, Spring Boot, MySQL, Angular</p>
+                          <ul>
+                            <li>Developed and enhanced core features for the Nepal Krishi web application, implementing multi-day reservations, transfer, and rescheduling workflows that streamlined agricultural service operations, increased user engagement by 25%, and improved overall system functionality by 15%.</li>
+                            <li>Cooperated closely with the marketing team to strategize and execute user acquisition campaigns, leading to a 40% increase in the user base over six months.</li>
+                         </ul>
                         </article>
 
                         <article>
@@ -99,23 +101,6 @@ const Resume = () => {
                         </article>
                     </section>
 
-                    <section className="work-experience">
-                        <h2>Other Work Experience</h2>
-                        <article>
-                            <h3>Crew Trainer <span>May 2022 - Present</span></h3>
-                            <p>McDonald’s, Waterloo, Canada</p>
-                            <p>Technology: Java, Spring, React, Spring Boot, MySQL</p>
-                            <ul>
-                                <li>
-                                    Conduct comprehensive training sessions for new crew members, ensuring smooth onboarding and equipping them with essential skills.
-                                </li>
-                                <li>
-                                    Showcased strong leadership, teamwork, and communication, improving training effectiveness for a 25% boost in trainee comprehension and application.
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-
                     <section className="education">
                         <h2>Education</h2>
                         <article>
@@ -125,7 +110,7 @@ const Resume = () => {
                         </article>
                         <p></p>
                         <article>
-                            <h3>Bachelor in Computer Engineering <span>Oct 2013 - Sept 2017  </span></h3>
+                            <h3>Bachelor in Computer Engineering <span>Oct 2013 - Sept 2017 </span></h3>
                             <p>Himalaya College of Engineering, Kathmandu, Nepal </p>
                             <p>Grade: 75.03%</p>
                         </article>
@@ -133,27 +118,19 @@ const Resume = () => {
                     <p></p>
                     <section className="projects">
                         <h2>Projects</h2>
-                        <article>
-                            <h3>College Connect
-                                <a href="https://collegeconnect.cyclic.app/" target="_blank">collegeconnect.cyclic.app</a></h3>
-                            <p>
-                                CollegeConnect revolutionizes campus communication, offering colleges a unified platform to share event details and track registered students effortlessly. For users, it transforms the college experience by consolidating information, enabling seamless interaction with friends, and fostering an engaging environment akin to popular social media platforms.
-                            </p>
-                            <p>Technology: MongoDB, Node.js, JavaScript, React.js</p>
-
-                            <ul>
-                                <li>
-                                    Streamlined user registration and personalized profiles for seamless onboarding.
-                                </li>
-                                <li>
-                                    Engineered an intuitive admin system for efficient content management.
-                                </li>
-                                <li>
-                                    Encouraged interactive engagement through user-friendly features like photo uploads and algorithmic content sorting.
-                                </li>
-                            </ul>
+                    <article>
+                        <h3 style={{ display: 'inline' }}>
+                            College Connect - 
+                            <a href="https://college-connect-app.vercel.app/" target="_blank" rel="noreferrer"> college-connect-app</a>
+                        </h3>
+                        <p>
+                            CollegeConnect revolutionizes campus communication, offering colleges a unified platform to share event details and track registered students effortlessly. For users, it transforms the college experience by consolidating information, enabling seamless interaction with friends, and fostering an engaging environment akin to popular social media platforms.
+                        </p>
+                        <ul>
+                            <li>Developed a full-stack social platform for campus communication serving multiple colleges with event management and student tracking capabilities.</li>
+                            <li>Implemented a secure authentication and authorization system with JWT, bcrypt password hashing, and role-based access control spanning student, admin, and faculty roles.</li>
+                        </ul>
                         </article>
-
                     </section>
 
                     <section className="certifications">
